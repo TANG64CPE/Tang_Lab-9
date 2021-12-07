@@ -18,7 +18,7 @@ int main(){
     int property;
     cout << "Enter your age: ";
     cin >> age;
-    if ( 20 >= age )
+    if ( 20 > age )
     {
         cout << "Enter your height: ";
         cin >> height;
@@ -34,7 +34,7 @@ int main(){
             {
                 cout << "Enter your property: ";
                 cin >> property;
-                if ( 69e7 < property )
+                if ( 69e6 < property )
                 {
                     cout << "Your status = MARRIED";
                 }else
@@ -45,11 +45,11 @@ int main(){
         }
     }else
     {
-        if ( 30 >= age )
+        if ( 30 > age )
         {
             cout << "Enter your property: ";
             cin >> property;
-            if ( 10e7 < property )
+            if ( 1e7 < property )
                 {
                     cout << "Your status = BEST FRIEND";
                 }else
