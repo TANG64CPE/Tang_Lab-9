@@ -3,19 +3,6 @@
 #include<string>
 using namespace std;
 
-//[Missing Code 1] Write definition of the function findGrade() here.
-/*char findGrade (char Grade){
-	if ( 90 <= Grade )
-	return 'A';
-	else if ( 75 <= Grade )
-	return 'B';
-	else if ( 60 <= Grade )
-	return 'C';
-	else if ( 45 <= Grade )
-	return 'D';
-	else 
-	return 'F';
-}*/
 char findGrade (double Grade){
 	if ( 90.0 < Grade )
 	return 'A';
